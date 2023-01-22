@@ -1,0 +1,10 @@
+def newton_first_law(m, Fnet):
+    a = Fnet / m
+    return a
+
+mass = int(input())
+net_force = int(input())
+
+acceleration = newton_first_law(mass, net_force)
+print(acceleration)
+
